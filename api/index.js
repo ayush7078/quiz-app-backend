@@ -1,10 +1,10 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
-const authRoutes = require('./routes/authRoutes');
-const quizRoutes = require('./routes/quizRoutes');
-const { connectDB } = require('./config/db');
-const swaggerDocs = require('./config/swagger');
+const authRoutes = require('../routes/authRoutes');
+const quizRoutes = require('../routes/quizRoutes');
+const { connectDB } = require('../config/db');
+const swaggerDocs = require('../config/swagger');
 
 
 const app = express();
@@ -21,3 +21,6 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+
+module.exports = app;
