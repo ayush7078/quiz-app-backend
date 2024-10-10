@@ -1,11 +1,11 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
-const cors = require('cors'); // Import the CORS package
-const authRoutes = require('../routes/authRoutes'); // Ensure paths are correct
-const quizRoutes = require('../routes/quizRoutes'); // Ensure paths are correct
-const { connectDB } = require('../config/db'); // Ensure paths are correct
-const swaggerDocs = require('../config/swagger'); // Ensure paths are correct
+const cors = require('cors'); 
+const authRoutes = require('../routes/authRoutes'); 
+const quizRoutes = require('../routes/quizRoutes'); 
+const { connectDB } = require('../config/db'); 
+const swaggerDocs = require('../config/swagger'); 
 
 const app = express();
 
