@@ -47,4 +47,4 @@
     ```
 
 ### API Documentation
-- The API is documented with **Swagger**. To access the Swagger docs, navigate to `/api-docs` on your running server.
+- The API is documented with **Swagger**. To access the Swagger docs, navigate to `/api-docs` on your running server. (http://localhost:5000/api-docs)

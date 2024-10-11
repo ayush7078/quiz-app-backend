@@ -2,10 +2,10 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors'); 
-const authRoutes = require('../routes/authRoutes'); 
-const quizRoutes = require('../routes/quizRoutes'); 
-const { connectDB } = require('../config/db'); 
-const swaggerDocs = require('../config/swagger'); 
+const authRoutes = require('./routes/authRoutes'); 
+const quizRoutes = require('./routes/quizRoutes'); 
+const { connectDB } = require('./config/db'); 
+const swaggerDocs = require('./config/swagger'); 
 
 const app = express();
 
